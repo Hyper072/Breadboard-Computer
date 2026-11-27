@@ -5,7 +5,13 @@ A fully custom 8-bit computer built from discrete 74HC-series logic ICs on solde
 This project is a ground-up implementation of a computer system, including a custom instruction set, a microcoded control unit, a discrete-logic ALU, memory architecture, and software tools.
 
 The goal is to build a functioning computer from individual logic components while making its internal architecture and operation physically observable.
+<p align="center">
+  <img src="assets/images/full-system.jpg" width="850" alt="Complete Breadboard Computer">
+</p>
 
+<p align="center">
+  <em>A fully custom 8-bit computer built from 74HC-series logic ICs.</em>
+</p>
 ## Project Video
 
 [Watch the full project demonstration](https://youtu.be/oCEUKDI3oGM?si=TA5Yu-X200thrPix)
