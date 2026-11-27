@@ -41,6 +41,34 @@ The main hardware components include:
 
 The processor has been tested at clock frequencies of 1 Hz, 1 kHz, and 1 MHz, and has operated successfully at 1 MHz.
 
+## Architecture Diagrams
+
+The following diagrams illustrate the processor's internal datapath, microcoded control unit, memory organization, and instruction execution cycle.
+
+### 1. CPU Datapath
+
+Illustrates the processor's internal architecture, including the register file, ALU, internal registers, buses, and data transfer paths.
+
+![CPU Datapath](assets/diagrams/CPU_Main_Datapath.png)
+
+### 2. Control Unit Architecture
+
+Shows the EEPROM-based microcoded control unit, its microinstruction organization, and the generation of control signals that coordinate the processor's operations.
+
+![Control Unit Architecture](assets/diagrams/CPU_Control_Unit.png)
+
+### 3. Memory Architecture
+
+Illustrates the computer's memory organization, including the System ROM, SRAM, VRAM, and memory address mapping.
+
+![Memory Architecture](assets/diagrams/CPU_Memory-Architecture.png)
+
+### 4. Fetch–Decode–Execute Cycle
+
+Shows the instruction execution process, from instruction fetching and decoding to execution through microcoded control sequences.
+
+![Fetch Decode Execute](assets/diagrams/CPU_Instruction_Cycle.png)
+
 ## Software Tools
 
 The project includes custom software tools written in Python:
