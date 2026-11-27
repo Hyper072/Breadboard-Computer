@@ -12,9 +12,18 @@ The goal is to build a functioning computer from individual logic components whi
 <p align="center">
   <em>A fully custom 8-bit computer built from 74HC-series logic ICs.</em>
 </p>
-## Project Video
 
-[Watch the full project demonstration](https://youtu.be/oCEUKDI3oGM?si=TA5Yu-X200thrPix)
+## Project Demonstration
+
+Watch the full demonstration of my custom-built 8-bit computer.
+
+<p align="center">
+  <a href="https://youtu.be/oCEUKDI3oGM">
+    <img src="https://img.youtube.com/vi/oCEUKDI3oGM/hqdefault.jpg" width="800" alt="Breadboard Computer - Video Demonstration">
+  </a>
+  <br>
+  <a href="https://youtu.be/oCEUKDI3oGM">https://youtu.be/oCEUKDI3oGM</a>
+</p>
 
 ## Key Features
 
