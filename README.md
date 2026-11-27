@@ -69,6 +69,16 @@ Shows the instruction execution process, from instruction fetching and decoding 
 
 ![Fetch Decode Execute](assets/diagrams/CPU_Instruction_Cycle.png)
 
+## Testing and Validation
+
+The computer was tested through a series of hardware and software validation procedures.
+
+- **Clock Frequency:** Successfully operated at 1 MHz, in addition to lower-frequency testing at 1 Hz and 1 kHz.
+- **Instruction Execution:** Custom assembly programs were used to verify instruction execution and processor behavior.
+- **Memory Operations:** Memory read and write operations were tested across the implemented memory regions.
+- **Control Unit:** EEPROM-based microcode was tested to verify instruction sequencing and control signal generation.
+- **Software:** The custom assembler and microcode generation tools were used to prepare programs and control instructions for the computer.
+
 ## Software Tools
 
 The project includes custom software tools written in Python:
@@ -107,6 +117,7 @@ Breadboard-Computer/
 | [Microarchitecture](docs/microarchitecture.md) | Microcoded control unit and execution |
 | [Memory Map](docs/memory-map.md) | Memory address allocation |
 | [Hardware](docs/hardware.md) | Physical hardware implementation |
+| [Instruction Execution Walkthrough](docs/instruction-execution.md) | Step-by-step explanation of instruction encoding, microcode execution, and memory operations.|
 
 ## Future Development
 
