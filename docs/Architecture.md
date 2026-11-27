@@ -28,7 +28,7 @@ The computer also includes memory-mapped video memory and a PS/2 keyboard interf
 | General-purpose registers | 8 x 8-bit |
 | ALU operand registers | RX and RY, 8 bits each |
 | Program Counter (PC) | 16 bits |
-| Stack Pointer (SP) | 16 bits |
+| Stack Pointer (SP) | 4 bits |
 | Memory Address Register (MAR) | 16 bits |
 | Instruction Register (IR) | 8 bits |
 | Flags | Carry, Zero, Sign |
@@ -80,7 +80,7 @@ The following diagram illustrates the main functional organization of the system
 |                                                      |
 |  +----------+  +----------+  +-------------------+   |
 |  |   PC     |  |   SP     |  |       MAR         |   |
-|  |  16-bit  |  |  16-bit  |  |      16-bit       |   |
+|  |  16-bit  |  |  4-bit  |  |      16-bit       |   |
 |  +----------+  +----------+  +-------------------+   |
 |                                                      |
 |                   +-------------+                    |
@@ -245,7 +245,7 @@ The MAR provides the address to the memory subsystem during read and write opera
 
 ### 4.4 Stack Pointer (SP)
 
-The Stack Pointer is a 16-bit register used to manage the processor's stack.
+The Stack Pointer is a 4-bit register used to manage the processor's stack.
 
 It supports subroutine calls and returns through the `CALL` and `RET` instructions.
 
