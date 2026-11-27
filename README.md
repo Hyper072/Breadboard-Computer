@@ -8,7 +8,7 @@ The goal is to build a functioning computer from individual logic components whi
 
 ## Project Video
 
-[Watch the full project demonstration](YOUR_VIDEO_URL)
+[Watch the full project demonstration](https://youtu.be/oCEUKDI3oGM?si=TA5Yu-X200thrPix)
 
 ## Key Features
 
